@@ -1,14 +1,13 @@
 CUDA_VISIBLE_DEVICES=3, python main_test.py \
 --n_gpu 1 \
 --image_dir ../dataset/iu_xray/images/ \
---ann_path data/iu_xray/iu_annotation_promptmrg.json \
+--ann_path data/iu_xray/iu_annotation.json \
 --dataset_name iu_xray \
 --gen_max_len 110 \
 --gen_min_len 60 \
 --batch_size 16 \
---save_dir results/promptmrg \
+--save_dir results \
 --seed 456789 \
 --clip_k 21 \
 --beam_size 3 \
---load_pretrained results/promptmrg/model_best_t_mid_gk3.23.pth
-# --load_pretrained results/promptmrg/model_promptmrg_20240305.pth
+--load_pretrained results/model_best_t_mid_gk3.23.pth
