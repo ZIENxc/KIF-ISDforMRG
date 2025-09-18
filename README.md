@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 
 ## Contributing:
-Contributions to this project are welcome. If you would like to contribute, Please feel free to:
+Contributions to this project are welcome. If you would like to contribute, please feel free to:
 
 Submit issues and bug reports
 
