@@ -40,7 +40,7 @@ Create pull requests for improvements
 Share your results using our model
 
 ## Contact
-For any inquiries or suggestions, please contact 2024220603009@zstu.mails.edu.cn.
+For any inquiries or suggestions, please contact 2024220603009@mails.zstu.edu.cn.
 
 Note: Include any additional sections or information that may be relevant to your specific project.
 
