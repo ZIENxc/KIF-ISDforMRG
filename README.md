@@ -2,11 +2,11 @@
 
 Code of paper: "Graph-Driven Medical Report Generation with Adaptive Knowledge Distillation".
 
-## Abstract
-Automated Medical Report Generation (MRG) faces a critical hurdle in seamlessly integrating detailed visual evidence with accurate clinical diagnoses. Current approaches often rely on static knowledge transfer, overlooking the complex interdependencies among pathological findings and their nuanced alignment with visual evidence, often yielding reports that are linguistically sound but clinically misaligned. To address these limitations, we propose a novel graph-driven medical report generation framework with adaptive knowledge distillation. Our architecture leverages a dual-phase optimization process. 
-First, visual-semantic enhancement proceeds through the explicit correlation of image features with a structured knowledge network and their concurrent enrichment via cross-modal semantic fusion, ensuring that generated descriptions are grounded in anatomical and pathological context.
-Second, a knowledge distillation mechanism iteratively refines both global narrative flow and local descriptive precision, enhancing the consistency between images and text.
-Comprehensive experiments on the MIMIC-CXR and IU X-Ray datasets demonstrate the effectiveness of our approach, which achieves state-of-the-art performance in clinical efficacy metrics across both datasets.
+### Medical Report Generation(MRG):
+Medical Report Generation (MRG) is a critical task in clinical AI that involves automatically generating comprehensive diagnostic reports from medical images such as chest X-rays. This task bridges computer vision and natural language processing to assist radiologists by reducing workload, minimizing diagnostic variability, and improving reporting efficiency. Unlike general image captioning, MRG requires precise medical terminology, structured reporting format, and clinically accurate findings description, making it both challenging and essential for practical clinical deployment.
+
+## Description:
+This repository presents a hierarchical framework for automated chest X-ray report generation that systematically integrates medical images with structured medical knowledge and enhance semantic information with relevant reports. The pipeline begins by extracting visual features from input X-rays while concurrently encoding anatomical concepts into structured embeddings. These representations are fused through cross-attention mechanisms to produce knowledge-enhanced visual features.  The resulting unified representation drives a diagnostic prompt generator and text decoder to produce coherent medical reports, while an iterative self-distillation mechanism optimizes both linguistic quality and diagnostic accuracy through consistency constraints between teacher and student models.
 
 ## Installation
 1. Clone this repository.
